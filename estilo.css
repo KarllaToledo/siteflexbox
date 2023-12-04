@@ -10,15 +10,17 @@ header {
     background-color: #5d4a36;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Adicionado para centralizar verticalmente */
     padding: 1rem 2rem;
 }
 
 .header-logo {
     font-size: 3rem;
-    text-align: right;
-    width:15%;
-
+    text-align: center; /* Ajustado para centralizar horizontalmente */
+    width: 15%;
+    margin: 0 auto; /* Adicionado para centralizar horizontalmente */
 }
+
 
 .header-nav ul {
     display: flex;
@@ -28,7 +30,7 @@ header {
 
 .header-nav ul li{
     list-style: none;
-    text-align: right;
+    text-align: center;
 }
 
     
