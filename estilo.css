@@ -50,29 +50,28 @@ header {
     background-color: #bf9f69;
     color: #000;
 }
+.main{
+    margin-top: 36px;
 
+}
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
 .imagens div {
     height: 250px;
     /* width: 30%; */
+    margin-bottom: 36px;
 }
 
 .tamanho {
     height: 100%;
 }
 
-.imagens {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin: 3rem auto;
-    width: 70%;
-    justify-content: space-around;
-}
-
 .imagens img:hover {
-    -webkit-filter: grayscale(100%); 
     filter: grayscale(100%); 
-    filter: gray;
 }
 
 
